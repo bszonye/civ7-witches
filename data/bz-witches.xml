@@ -2,20 +2,20 @@
 <Database>
   <Types>
     <!--Religions-->
-    <Row Type="RELIGION_BZ_TRIPLE" Kind="KIND_RELIGION"/>
-    <Row Type="RELIGION_BZ_PENTAGRAM" Kind="KIND_RELIGION"/>
-    <Row Type="RELIGION_BZ_TRIVIUS" Kind="KIND_RELIGION"/>
     <Row Type="RELIGION_BZ_WITCHCRAFT" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PENTAGRAM" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_TRIPLE_MOON" Kind="KIND_RELIGION"/>
   </Types>
   <Religions>
-    <!-- custom religions -->
+    <!-- named religions -->
     <Row>
-      <ReligionType>RELIGION_BZ_TRIPLE</ReligionType>
-      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
-      <IconString>3G</IconString>
-      <RequiresCustomName>true</RequiresCustomName>
-      <Color>COLOR_RELIGION_BZ_TRIPLE</Color>
+      <ReligionType>RELIGION_BZ_WITCHCRAFT</ReligionType>
+      <Name>LOC_RELIGION_BZ_WITCHCRAFT_NAME</Name>
+      <IconString>Wi</IconString>
+      <RequiresCustomName>false</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_WITCHCRAFT</Color>
     </Row>
+    <!-- custom religions -->
     <Row>
       <ReligionType>RELIGION_BZ_PENTAGRAM</ReligionType>
       <Name>LOC_RELIGION_CUSTOM_NAME</Name>
@@ -23,20 +23,12 @@
       <RequiresCustomName>true</RequiresCustomName>
       <Color>COLOR_RELIGION_BZ_PENTAGRAM</Color>
     </Row>
-    <!-- named religions -->
     <Row>
-      <ReligionType>RELIGION_BZ_TRIVIUS</ReligionType>
-      <Name>LOC_RELIGION_BZ_TRIVIUS_NAME</Name>
-      <IconString>Tr</IconString>
-      <RequiresCustomName>false</RequiresCustomName>
-      <Color>COLOR_RELIGION_BZ_TRIVIUS</Color>
-    </Row>
-    <Row>
-      <ReligionType>RELIGION_BZ_WITCHCRAFT</ReligionType>
-      <Name>LOC_RELIGION_BZ_WITCHCRAFT_NAME</Name>
-      <IconString>Wi</IconString>
-      <RequiresCustomName>false</RequiresCustomName>
-      <Color>COLOR_RELIGION_BZ_WITCHCRAFT</Color>
+      <ReligionType>RELIGION_BZ_TRIPLE_MOON</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>3G</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_TRIPLE_MOON</Color>
     </Row>
   </Religions>
 </Database>
