@@ -6,7 +6,7 @@
         <Description>LOC_MOD_BZ_WITCHES_DESCRIPTION</Description>
         <Authors>beezany</Authors>
         <Package>Mod</Package>
-        <AffectsSavedGames>0</AffectsSavedGames>
+        <AffectsSavedGames>1</AffectsSavedGames>
         <bzIcon>blp:nar_rew_religion</bzIcon>
         <bzIconGlow>#5c5cd6</bzIconGlow>
     </Properties>
