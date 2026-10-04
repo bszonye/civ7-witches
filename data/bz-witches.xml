@@ -3,6 +3,7 @@
   <Types>
     <!--Religions-->
     <Row Type="RELIGION_BZ_WITCHCRAFT" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PENTACLE" Kind="KIND_RELIGION"/>
     <Row Type="RELIGION_BZ_PENTAGRAM" Kind="KIND_RELIGION"/>
     <Row Type="RELIGION_BZ_TRIPLE_MOON" Kind="KIND_RELIGION"/>
   </Types>
@@ -17,6 +18,13 @@
     </Row>
     <!-- custom religions -->
     <Row>
+      <ReligionType>RELIGION_BZ_PENTACLE</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>5C</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PENTACLE</Color>
+    </Row>
+    <Row>
       <ReligionType>RELIGION_BZ_PENTAGRAM</ReligionType>
       <Name>LOC_RELIGION_CUSTOM_NAME</Name>
       <IconString>5G</IconString>
@@ -26,7 +34,7 @@
     <Row>
       <ReligionType>RELIGION_BZ_TRIPLE_MOON</ReligionType>
       <Name>LOC_RELIGION_CUSTOM_NAME</Name>
-      <IconString>3G</IconString>
+      <IconString>3M</IconString>
       <RequiresCustomName>true</RequiresCustomName>
       <Color>COLOR_RELIGION_BZ_TRIPLE_MOON</Color>
     </Row>
