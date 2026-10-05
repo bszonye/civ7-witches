@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+  <Types>
+    <!--Religions-->
+    <Row Type="RELIGION_BZ_WITCHCRAFT" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PENTACLE" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PENTAGRAM" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_TRIPLE_MOON" Kind="KIND_RELIGION"/>
+  </Types>
+  <Religions>
+    <!-- named religions -->
+    <Row>
+      <ReligionType>RELIGION_BZ_WITCHCRAFT</ReligionType>
+      <Name>LOC_RELIGION_BZ_WITCHCRAFT_NAME</Name>
+      <IconString>Wi</IconString>
+      <RequiresCustomName>false</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_WITCHCRAFT</Color>
+    </Row>
+    <!-- custom religions -->
+    <Row>
+      <ReligionType>RELIGION_BZ_PENTACLE</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>5C</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PENTACLE</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PENTAGRAM</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>5G</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PENTAGRAM</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_TRIPLE_MOON</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>3M</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_TRIPLE_MOON</Color>
+    </Row>
+  </Religions>
+</Database>

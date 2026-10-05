@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="bz-witches" version="1.0.0" xmlns="ModInfo">
+    <Properties>
+        <Name>LOC_MOD_BZ_WITCHES_NAME</Name>
+        <Version>1.0.0</Version>
+        <Description>LOC_MOD_BZ_WITCHES_DESCRIPTION</Description>
+        <Authors>beezany</Authors>
+        <Package>Mod</Package>
+        <AffectsSavedGames>1</AffectsSavedGames>
+        <bzIcon>blp:nar_rew_religion</bzIcon>
+        <bzIconGlow>#5c5cd6</bzIconGlow>
+    </Properties>
+    <Dependencies>
+        <Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME" />
+    </Dependencies>
+    <References>
+    </References>
+    <ActionCriteria>
+        <Criteria id="always">
+            <AlwaysMet/>
+        </Criteria>
+    </ActionCriteria>
+    <ActionGroups>
+        <ActionGroup id="bz-witches-shell" scope="shell" criteria="always">
+            <Properties>
+                <LoadOrder>50</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateArt>
+                    <Item>bz-witches</Item>
+                </UpdateArt>
+                <UpdateText>
+                    <Item>text/en_us/InGameText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+        <ActionGroup id="bz-witches-game" scope="game" criteria="always">
+            <Properties>
+                <LoadOrder>50</LoadOrder>
+            </Properties>
+            <Actions>
+                <UpdateArt>
+                    <Item>bz-witches</Item>
+                </UpdateArt>
+                <UpdateDatabase>
+                    <Item>data/bz-witches.xml</Item>
+                </UpdateDatabase>
+                <UpdateIcons>
+                    <Item>data/bz-witches-icons.xml</Item>
+                </UpdateIcons>
+                <UpdateText>
+                    <Item>text/en_us/InGameText.xml</Item>
+                </UpdateText>
+            </Actions>
+        </ActionGroup>
+    </ActionGroups>
+    <LocalizedText>
+        <File>text/en_us/ModInfoText.xml</File>
+    </LocalizedText>
+</Mod>

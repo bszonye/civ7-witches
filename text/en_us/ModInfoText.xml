@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Row Tag="LOC_MOD_BZ_WITCHES_NAME">
+            <Text>Trixie’s Witches</Text>
+        </Row>
+        <Row Tag="LOC_MOD_BZ_WITCHES_DESCRIPTION">
+            <Text>more and better religion icons</Text>
+        </Row>
+    </EnglishText>
+</Database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+    <EnglishText>
+        <Replace Tag="LOC_RELIGION_BZ_TRIVIUS_NAME">
+            <Text>Trivius Dea</Text>
+        </Replace>
+        <Replace Tag="LOC_RELIGION_BZ_WITCHCRAFT_NAME">
+            <Text>Witchcraft</Text>
+        </Replace>
+    </EnglishText>
+</Database>
+

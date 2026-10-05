@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+  <IconDefinitions>
+    <!-- named religions -->
+    <Replace>
+      <ID>RELIGION_BZ_WITCHCRAFT</ID>
+      <Context>PLAYER</Context>
+      <IconSize>256</IconSize>
+      <NeedsTinting>1</NeedsTinting>
+      <Path>blp:religion_bz_witchcraft</Path>
+    </Replace>
+    <Replace>
+      <ID>RELIGION_BZ_WITCHCRAFT</ID>
+      <IconSize>256</IconSize>
+      <Path>blp:rel_bz_witchcraft_deco</Path>
+    </Replace>
+    <!-- custom religions -->
+    <Replace>
+      <ID>RELIGION_BZ_PENTACLE</ID>
+      <Context>PLAYER</Context>
+      <IconSize>256</IconSize>
+      <NeedsTinting>1</NeedsTinting>
+      <Path>blp:religion_bz_pentacle</Path>
+    </Replace>
+    <Replace>
+      <ID>RELIGION_BZ_PENTACLE</ID>
+      <IconSize>256</IconSize>
+      <Path>blp:rel_bz_pentacle_deco</Path>
+    </Replace>
+    <Replace>
+      <ID>RELIGION_BZ_PENTAGRAM</ID>
+      <Context>PLAYER</Context>
+      <IconSize>256</IconSize>
+      <NeedsTinting>1</NeedsTinting>
+      <Path>blp:religion_bz_pentagram</Path>
+    </Replace>
+    <Replace>
+      <ID>RELIGION_BZ_PENTAGRAM</ID>
+      <IconSize>256</IconSize>
+      <Path>blp:rel_bz_pentagram_deco</Path>
+    </Replace>
+    <Replace>
+      <ID>RELIGION_BZ_TRIPLE_MOON</ID>
+      <Context>PLAYER</Context>
+      <IconSize>256</IconSize>
+      <NeedsTinting>1</NeedsTinting>
+      <Path>blp:religion_bz_triple</Path>
+    </Replace>
+    <Replace>
+      <ID>RELIGION_BZ_TRIPLE_MOON</ID>
+      <IconSize>256</IconSize>
+      <Path>blp:rel_bz_triple_deco</Path>
+    </Replace>
+  </IconDefinitions>
+</Database>
