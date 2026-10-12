@@ -3,9 +3,36 @@
   <Types>
     <!--Religions-->
     <Row Type="RELIGION_BZ_WITCHCRAFT" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_INFINITY" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_MOON" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_MOONS" Kind="KIND_RELIGION"/>
     <Row Type="RELIGION_BZ_PENTACLE" Kind="KIND_RELIGION"/>
     <Row Type="RELIGION_BZ_PENTAGRAM" Kind="KIND_RELIGION"/>
-    <Row Type="RELIGION_BZ_TRIPLE_MOON" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_TAROT" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET01" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET02" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET03" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET04" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET05" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET06" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET07" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET08" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET09" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET10" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET11" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_PLANET12" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC01" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC02" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC03" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC04" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC05" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC06" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC07" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC08" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC09" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC10" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC11" Kind="KIND_RELIGION"/>
+    <Row Type="RELIGION_BZ_ZODIAC12" Kind="KIND_RELIGION"/>
   </Types>
   <Religions>
     <!-- named religions -->
@@ -17,6 +44,27 @@
       <Color>COLOR_RELIGION_BZ_WITCHCRAFT</Color>
     </Row>
     <!-- custom religions -->
+    <Row>
+      <ReligionType>RELIGION_BZ_INFINITY</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>ZZ</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_INFINITY</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_MOON</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>MC</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_MOON</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_MOONS</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>M3</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_MOONS</Color>
+    </Row>
     <Row>
       <ReligionType>RELIGION_BZ_PENTACLE</ReligionType>
       <Name>LOC_RELIGION_CUSTOM_NAME</Name>
@@ -32,11 +80,179 @@
       <Color>COLOR_RELIGION_BZ_PENTAGRAM</Color>
     </Row>
     <Row>
-      <ReligionType>RELIGION_BZ_TRIPLE_MOON</ReligionType>
+      <ReligionType>RELIGION_BZ_TAROT</ReligionType>
       <Name>LOC_RELIGION_CUSTOM_NAME</Name>
-      <IconString>3M</IconString>
+      <IconString>PCS</IconString>
       <RequiresCustomName>true</RequiresCustomName>
-      <Color>COLOR_RELIGION_BZ_TRIPLE_MOON</Color>
+      <Color>COLOR_RELIGION_BZ_TAROT</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET01</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P01</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET01</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET02</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P02</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET02</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET03</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P03</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET03</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET04</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P04</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET04</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET05</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P05</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET05</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET06</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P06</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET06</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET07</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P07</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET07</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET08</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P08</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET08</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET09</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P09</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET09</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET10</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P10</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET10</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET11</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P11</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET11</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_PLANET12</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>P12</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_PLANET12</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC01</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z01</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC01</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC02</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z02</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC02</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC03</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z03</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC03</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC04</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z04</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC04</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC05</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z05</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC05</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC06</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z06</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC06</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC07</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z07</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC07</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC08</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z08</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC08</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC09</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z09</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC09</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC10</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z10</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC10</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC11</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z11</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC11</Color>
+    </Row>
+    <Row>
+      <ReligionType>RELIGION_BZ_ZODIAC12</ReligionType>
+      <Name>LOC_RELIGION_CUSTOM_NAME</Name>
+      <IconString>Z12</IconString>
+      <RequiresCustomName>true</RequiresCustomName>
+      <Color>COLOR_RELIGION_BZ_ZODIAC12</Color>
     </Row>
   </Religions>
 </Database>
